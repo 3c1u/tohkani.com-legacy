@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "tohkani.com",
   "main": "index.js",
-  "repository": "https://github.com/3c1u/inami",
+  "repository": "https://github.com/3c1u/tohkani.com",
   "author": "Hikaru Terazono (3c1u)",
   "devDependencies": {
     "parcel": "^1.12.4",
@@ -13,7 +13,7 @@
   "scripts": {
     "serve": "parcel ./src/index.html",
     "build": "parcel build ./src/index.html",
-    "deploy": "parcel build ./src/index.html -d docs/ --public-url https://tohkani.com/",
+    "deploy": "parcel build ./src/index.html -d docs/ --public-url https://www.tohkani.com/",
     "clean": "rimraf dist"
   },
   "dependencies": {
