@@ -15,4 +15,4 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{"./cjs/react-dom.production.min.js":"i17t"}],"n6He":[function(require,module,exports) {
 "use strict";var e=this&&this.__createBinding||(Object.create?function(e,t,r,n){void 0===n&&(n=r),Object.defineProperty(e,n,{enumerable:!0,get:function(){return t[r]}})}:function(e,t,r,n){void 0===n&&(n=r),e[n]=t[r]}),t=this&&this.__setModuleDefault||(Object.create?function(e,t){Object.defineProperty(e,"default",{enumerable:!0,value:t})}:function(e,t){e.default=t}),r=this&&this.__importStar||function(r){if(r&&r.__esModule)return r;var n={};if(null!=r)for(var u in r)"default"!==u&&Object.prototype.hasOwnProperty.call(r,u)&&e(n,r,u);return t(n,r),n};Object.defineProperty(exports,"__esModule",{value:!0});var n=r(require("react")),u=r(require("react-dom")),i=function(e){return n.createElement(n.Fragment,null,n.createElement("h2",null,"🌈🦀"))};u.render(n.createElement(i,null),document.getElementById("app"));
 },{"react":"n8MK","react-dom":"NKHc"}]},{},["n6He"], null)
-//# sourceMappingURL=https://tohkani.com/ts.5b28bc94.js.map
+//# sourceMappingURL=https://www.tohkani.com/ts.5b28bc94.js.map
