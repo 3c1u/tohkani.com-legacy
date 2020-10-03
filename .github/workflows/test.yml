@@ -1,0 +1,16 @@
+name: Test
+on: [pull, pull_request]
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    if: github.ref != 'refs/heads/master'
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2.3.1
+        with:
+          persist-credentials: false
+
+      - name: Dry run
+        run: |
+          yarn
+          yarn deploy
