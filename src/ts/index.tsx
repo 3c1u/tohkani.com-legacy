@@ -3,20 +3,7 @@
 import * as React from 'react'
 import * as ReactDOM from 'react-dom'
 
-import kani from '../favicon.svg'
-
-const App = (props: {}) => {
-    return (<>
-        <div style={{
-            textAlign: "center",
-        }}>
-            <div>
-                <img src={kani} width={300}/>
-            </div>
-            
-        </div>
-    </>)
-}
+import App from './App'
 
 ReactDOM.render((
     <App />
