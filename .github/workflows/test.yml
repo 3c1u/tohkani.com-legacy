@@ -1,9 +1,8 @@
 name: Test
-on: [push, pull_request]
+on: [pull_request]
 jobs:
   test:
     runs-on: ubuntu-latest
-    if: github.ref != 'refs/heads/main'
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v2.3.1
