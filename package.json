@@ -26,16 +26,21 @@
         "prettier": "^2.1.2",
         "rimraf": "^3.0.2",
         "stylus": "^0.54.8",
+        "stylus-supremacy": "^2.14.5",
         "typescript": "^4.0.3"
     },
     "scripts": {
         "serve": "parcel ./src/index.html",
         "deploy": "parcel build ./src/index.html -d docs/ --public-url https://www.tohkani.com/",
         "clean": "rimraf dist",
-        "fmt": "prettier --write \"./src/**/*.{ts,tsx}\"",
-        "fmt:dry": "prettier --check \"./src/**/*.{ts,tsx}\"",
-        "lint": "eslint --ext .ts,.tsx ./src",
-        "lint:fix": "eslint --ext .ts,.tsx ./src --fix"
+        "fmt": "yarn fmt:ts && yarn fmt:stylus",
+        "fmt:ts": "prettier --write \"./src/**/*.{ts,tsx}\"",
+        "fmt:ts:dry": "prettier --check \"./src/**/*.{ts,tsx}\"",
+        "fmt:stylus": "stylus-supremacy format ./src/**/*.styl --replace",
+        "fmt:stylus:dry": "stylus-supremacy format ./src/**/*.styl --compare",
+        "fmt:dry": "yarn fmt:ts:dry && yarn fmt:stylus:dry",
+        "lint": "yarn fmt:dry && eslint --ext .ts,.tsx ./src",
+        "lint:fix": "yarn fmt && eslint --ext .ts,.tsx ./src --fix"
     },
     "dependencies": {
         "@material-ui/core": "^4.11.0",
