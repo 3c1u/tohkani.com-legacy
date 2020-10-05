@@ -12,13 +12,16 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: Lint
+      -name: Install 🦀
+        run: |
+          yarn
+
+      - name: Lint 📎
         run: |
           yarn lint
 
-      - name: Install and Build 🔧
+      - name: Build 🔧
         run: |
-          yarn
           yarn deploy
 
       - name: Deploy 🚀
