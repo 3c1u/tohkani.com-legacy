@@ -11,7 +11,8 @@
         "plugin:react/recommended",
         "plugin:prettier/recommended",
         "prettier/@typescript-eslint",
-        "prettier/react"
+        "prettier/react",
+        "plugin:react-hooks/recommended"
     ],
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
@@ -22,7 +23,7 @@
         "sourceType": "module",
         "project": "./tsconfig.json"
     },
-    "plugins": ["react", "@typescript-eslint", "prettier"],
+    "plugins": ["react", "@typescript-eslint", "prettier", "react-hooks"],
     "rules": {
         "react/jsx-filename-extension": [2, { "extensions": [".tsx", ".jsx"] }],
         "@typescript-eslint/triple-slash-reference": "off",
@@ -41,7 +42,9 @@
             {
                 "argsIgnorePattern": "^_"
             }
-        ]
+        ],
+        "react-hooks/rules-of-hooks": "error",
+        "react-hooks/exhaustive-deps": "error"
     },
     "settings": {
         "import/resolver": {
