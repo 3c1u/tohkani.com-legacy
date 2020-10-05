@@ -1,6 +1,7 @@
 {
     "name": "tohkani.com",
     "version": "1.0.0",
+    "private": true,
     "description": "tohkani.com",
     "main": "docs/index.html",
     "repository": "https://github.com/3c1u/tohkani.com",
@@ -9,6 +10,7 @@
         "@typescript-eslint/eslint-plugin": "4.0.1",
         "@typescript-eslint/parser": "4.0.1",
         "autoprefixer": "^7.2.1",
+        "browserslist": "^4.14.5",
         "eslint": "^7.10.0",
         "eslint-config-airbnb": "^18.2.0",
         "eslint-config-prettier": "^6.12.0",
@@ -20,6 +22,7 @@
         "eslint-plugin-react-hooks": "^4.1.2",
         "parcel": "^1.12.4",
         "postcss-modules": "^3.2.2",
+        "postcss-normalize": "^9.0.0",
         "prettier": "^2.1.2",
         "rimraf": "^3.0.2",
         "stylus": "^0.54.8",
@@ -41,5 +44,14 @@
         "@types/react-dom": "^16.9.8",
         "react": "^15.4.0 || ^16.0.0",
         "react-dom": "^15.4.0 || ^16.0.0"
-    }
+    },
+    "browserslist": [
+        "> 1.0%",
+        "last 2 chrome versions",
+        "last 2 firefox versions",
+        "last 1 safari version",
+        "not IE 11",
+        "not IE_Mob 11",
+        "Firefox ESR"
+    ]
 }
