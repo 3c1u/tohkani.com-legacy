@@ -5,4 +5,22 @@ import * as ReactDOM from 'react-dom'
 
 import App from './App'
 
-ReactDOM.render(<App />, document.getElementById('app'))
+import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles'
+import {teal, pink} from '@material-ui/core/colors'
+import { CssBaseline } from '@material-ui/core'
+
+const theme = createMuiTheme({
+    palette: {
+        type: 'light',
+        primary: teal,
+        secondary: pink,
+    },
+})
+
+ReactDOM.render(
+    <ThemeProvider theme={theme}>
+        <CssBaseline />
+        <App />
+    </ThemeProvider>,
+    document.getElementById('app'),
+)
