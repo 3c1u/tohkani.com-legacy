@@ -3,11 +3,11 @@
 import * as React from 'react'
 import * as ReactDOM from 'react-dom'
 
-import App from './App'
-
 import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles'
-import {teal, pink} from '@material-ui/core/colors'
+import { teal, pink } from '@material-ui/core/colors'
 import { CssBaseline } from '@material-ui/core'
+
+import App from './App'
 
 const theme = createMuiTheme({
     palette: {
