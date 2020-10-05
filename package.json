@@ -1,29 +1,32 @@
 {
-  "name": "tohkani.com",
-  "version": "1.0.0",
-  "description": "tohkani.com",
-  "main": "docs/index.html",
-  "repository": "https://github.com/3c1u/tohkani.com",
-  "author": "Hikaru Terazono (3c1u)",
-  "devDependencies": {
-    "parcel": "^1.12.4",
-    "autoprefixer": "^7.2.1",
-    "postcss-modules": "^3.2.2",
-    "rimraf": "^3.0.2",
-    "stylus": "^0.54.8",
-    "typescript": "^4.0.3"
-  },
-  "scripts": {
-    "serve": "parcel ./src/index.html",
-    "deploy": "parcel build ./src/index.html -d docs/ --public-url https://www.tohkani.com/",
-    "clean": "rimraf dist"
-  },
-  "dependencies": {
-    "@material-ui/core": "^4.11.0",
-    "@material-ui/icons": "^4.9.1",
-    "@types/react": "^16.9.50",
-    "@types/react-dom": "^16.9.8",
-    "react": "^15.4.0 || ^16.0.0",
-    "react-dom": "^15.4.0 || ^16.0.0"
-  }
+    "name": "tohkani.com",
+    "version": "1.0.0",
+    "description": "tohkani.com",
+    "main": "docs/index.html",
+    "repository": "https://github.com/3c1u/tohkani.com",
+    "author": "Hikaru Terazono (3c1u)",
+    "devDependencies": {
+        "autoprefixer": "^7.2.1",
+        "parcel": "^1.12.4",
+        "postcss-modules": "^3.2.2",
+        "prettier": "^2.1.2",
+        "rimraf": "^3.0.2",
+        "stylus": "^0.54.8",
+        "typescript": "^4.0.3"
+    },
+    "scripts": {
+        "serve": "parcel ./src/index.html",
+        "deploy": "parcel build ./src/index.html -d docs/ --public-url https://www.tohkani.com/",
+        "clean": "rimraf dist",
+        "fmt": "prettier --write \"./src/**/*.{ts,tsx}\"",
+        "fmt-dry": "prettier --check \"./src/**/*.{ts,tsx}\""
+    },
+    "dependencies": {
+        "@material-ui/core": "^4.11.0",
+        "@material-ui/icons": "^4.9.1",
+        "@types/react": "^16.9.50",
+        "@types/react-dom": "^16.9.8",
+        "react": "^15.4.0 || ^16.0.0",
+        "react-dom": "^15.4.0 || ^16.0.0"
+    }
 }
