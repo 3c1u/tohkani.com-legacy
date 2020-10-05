@@ -3,12 +3,10 @@ declare module '*.jpg'
 declare module '*.jpeg'
 declare module '*.svg'
 
-declare module '*.css' {
-  const css: any
-  export default css
-}
-
 declare module '*.styl' {
-  const css: any
-  export default css
+    interface IClassNames {
+        [className: string]: string
+    }
+    const classNames: IClassNames
+    export = classNames
 }
