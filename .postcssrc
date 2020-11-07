@@ -1,9 +1,9 @@
 {
-  "modules": true,
-  "plugins": {
-    "autoprefixer": {
-      "grid": true
-    },
-    "postcss-normalize": {}
-  }
+    "modules": true,
+    "plugins": {
+        "autoprefixer": {
+            "grid": true
+        },
+        "postcss-normalize": {}
+    }
 }
