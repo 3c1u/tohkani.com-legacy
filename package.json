@@ -12,7 +12,7 @@
         "autoprefixer": "^9.8.6",
         "browserslist": "^4.14.5",
         "eslint": "^7.12.1",
-        "eslint-config-airbnb": "^18.2.0",
+        "eslint-config-airbnb": "^18.2.1",
         "eslint-config-prettier": "^6.15.0",
         "eslint-import-resolver-parcel": "^1.10.5",
         "eslint-plugin-import": "^2.22.1",
