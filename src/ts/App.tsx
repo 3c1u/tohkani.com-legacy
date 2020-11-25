@@ -43,7 +43,7 @@ const App = (_props: Record<string, unknown>): JSX.Element => {
                     <IconButton href="https://github.com/3c1u">
                         <GitHubIcon />
                     </IconButton>
-                    <IconButton href="https://twitter.com/murueka_misw">
+                    <IconButton href="https://twitter.com/tohkani">
                         <TwitterIcon />
                     </IconButton>
                     <IconButton href="https://3c1u.tohkani.xyz/">
