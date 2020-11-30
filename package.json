@@ -23,7 +23,7 @@
         "parcel": "^1.12.4",
         "postcss-modules": "^3.2.2",
         "postcss-normalize": "^9.0.0",
-        "prettier": "^2.2.0",
+        "prettier": "^2.2.1",
         "rimraf": "^3.0.2",
         "stylus": "^0.54.8",
         "stylus-supremacy": "^2.14.5",
