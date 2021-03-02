@@ -8,7 +8,7 @@
     "author": "Hikaru Terazono (3c1u)",
     "devDependencies": {
         "@typescript-eslint/eslint-plugin": "^4.8.1",
-        "@typescript-eslint/parser": "^4.8.2",
+        "@typescript-eslint/parser": "^4.16.1",
         "autoprefixer": "^9.8.6",
         "browserslist": "^4.14.7",
         "eslint": "^7.14.0",
