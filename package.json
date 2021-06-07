@@ -11,7 +11,7 @@
         "@typescript-eslint/parser": "^4.22.0",
         "autoprefixer": "^9.8.6",
         "browserslist": "^4.14.7",
-        "eslint": "^7.14.0",
+        "eslint": "^7.28.0",
         "eslint-config-airbnb": "^18.2.1",
         "eslint-config-prettier": "^6.15.0",
         "eslint-import-resolver-parcel": "^1.10.6",
