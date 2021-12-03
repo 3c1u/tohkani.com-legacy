@@ -53,7 +53,7 @@ const App = (_props: Record<string, unknown>): JSX.Element => {
                 {/* copyright */}
                 <footer>
                     <Typography variant="caption" display="block" gutterBottom>
-                        © 2020 Hikaru Terazono (3c1u).
+                        © 2021 Hikaru Terazono (3c1u).
                     </Typography>
                 </footer>
             </div>
